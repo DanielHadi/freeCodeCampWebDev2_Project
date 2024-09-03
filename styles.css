@@ -1,6 +1,7 @@
 *{
     font-family: tahoma, sans-serif;
-  }
+    color: rgb(50, 50, 50);
+}
 
 h1 {
     font-size: min(5vw, 34px);
@@ -22,7 +23,9 @@ p {
 
 img{
     display: block;
-    max-width: 100%;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 #img-div{
@@ -32,7 +35,7 @@ img{
   
 #img-caption {
     text-align: center;
-    max-width: 70%;
+    max-width: 900px;
     min-width: 30%;
     margin: 1.5rem auto;
     margin-bottom: 0;
