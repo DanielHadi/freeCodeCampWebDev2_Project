@@ -31,6 +31,7 @@ img{
 #img-div{
     background-color: white;
     padding-bottom: 1rem;
+    margin-bottom: 4rem;
 }
   
 #img-caption {
@@ -42,10 +43,14 @@ img{
 }
   
 #tribute-info{
-    background-color: red;
     text-align: center;
-    max-width: 50%;
+    max-width: 500px;
     margin: 0 auto;
+}
+
+#tribute-info > p{
+    
+    font-weight: bold;
 }
   
 .container {
