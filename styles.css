@@ -1,0 +1,53 @@
+*{
+    font-family: tahoma, sans-serif;
+  }
+  
+  .container {
+    margin: 2rem 0;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background-color: grey;
+  }
+  
+  #img-div{
+    background-color: white;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: min(5vw, 34px);
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: min(3vw, 24px);
+  }
+  
+  p {
+    text-align: center;
+    max-width: 20rem;
+    min-width: 20rem;
+    margin: 1.5rem auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    max-width: 70%;
+    min-width: 30%;
+    margin: 1.5rem auto;
+    margin-bottom: 0;
+  }
+  
+  #tribute-info{
+    background-color: red;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+  }
