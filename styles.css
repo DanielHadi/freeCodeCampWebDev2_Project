@@ -43,13 +43,17 @@ img{
 }
   
 #tribute-info{
-    text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
+    text-align: justify;
 }
 
 #tribute-info > p, #tribute-info > ul > li > span{
     font-weight: bold;
+}
+
+#tribute-info > ul > li{
+    margin-bottom: 1rem;
 }
   
 .container {
