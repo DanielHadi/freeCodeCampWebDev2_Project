@@ -13,13 +13,6 @@ h1 {
 h2 {
     font-size: min(3vw, 24px);
 }
-  
-p {
-    text-align: center;
-    max-width: 20rem;
-    min-width: 20rem;
-    margin: 1.5rem auto;
-}
 
 img{
     display: block;
@@ -55,12 +48,24 @@ img{
 #tribute-info > ul > li{
     margin-bottom: 1rem;
 }
+
+#tribute-link{
+    font-weight: normal;
+    color: #2F3C7E;
+}
   
 .container {
     margin: 2rem 0;
     padding: 2rem;
     padding-bottom: 1rem;
     background-color: rgb(221, 219, 219);
+}
+
+.container > p {
+    text-align: center;
+    max-width: 30rem;
+    min-width: 20rem;
+    margin: 1.5rem auto;
 }
 
 .quote *{
@@ -71,4 +76,13 @@ img{
 
 .quote {
     margin-top: 3rem;
+}
+
+.last-one {
+    margin: 0 auto;
+}
+
+.last-one > p {
+    text-align: center;
+    font-weight: bold;
 }
